@@ -1,8 +1,9 @@
 import imghdr
 import smtplib
 from email.message import EmailMessage
+import os 
 
-PASSWORD = "mwgdseivanzwqrur"
+PASSWORD = os.getenv("PASSWORD1")
 SENDER = "harshagg75@gmail.com"
 RECEIVER = "haggarwal251@gmail.com"
 def send_email(image_path):
