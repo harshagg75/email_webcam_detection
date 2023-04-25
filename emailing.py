@@ -4,8 +4,8 @@ from email.message import EmailMessage
 import os 
 
 PASSWORD = os.getenv("PASSWORD1")
-SENDER = "harshagg75@gmail.com"
-RECEIVER = "haggarwal251@gmail.com"
+SENDER = "harsh@gmail.com"
+RECEIVER = "haggarwal@gmail.com"
 def send_email(image_path):
     print("email sending ")
     email_message = EmailMessage()
